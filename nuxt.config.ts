@@ -18,7 +18,7 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    apiKey: "dev_token",
+    apiKeySecret: "dev_token",
   },
 
   modules: ["@nuxt/ui", "@nuxtjs/supabase"],

@@ -3,7 +3,7 @@ import { serverSupabaseClient } from "#supabase/server";
 
 export default defineEventHandler(async (event) => {
   try {
-    const apiKeySecret = useRuntimeConfig(event).apiKey;
+    const apiKeySecret = useRuntimeConfig(event).apiKeySecret;
     const headers = event.req.headers;
 
     const apiKey = headers["api-key"];
