@@ -9,6 +9,14 @@ Make sure to install the dependencies:
 pnpm install
 ```
 
+## Configuration
+
+Copy the .env.sample file to .env to set up your environment variables:
+
+```bash
+cp .env.sample .env
+```
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
